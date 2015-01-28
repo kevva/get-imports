@@ -1,4 +1,4 @@
-# get-imports [![Build Status](https://travis-ci.org/kevva/get-imports.svg?branch=master)](https://travis-ci.org/kevva/get-imports)
+# get-imports [![Build Status](http://img.shields.io/travis/kevva/get-imports.svg?style=flat)](https://travis-ci.org/kevva/get-imports)
 
 > Get CSS @imports from a string
 
