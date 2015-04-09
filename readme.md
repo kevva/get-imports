@@ -2,11 +2,13 @@
 
 > Get CSS @imports from a string
 
+
 ## Install
 
-```sh
+```
 $ npm install --save get-imports
 ```
+
 
 ## Usage
 
@@ -17,6 +19,7 @@ var str = '@import url(\'foo.css\'); foo @import url(\'bar.css\'); bar';
 getImports(str);
 //=> ['@import url('foo.css');', '@import url('bar.css');']
 ```
+
 
 ## License
 
