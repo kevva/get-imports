@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Get CSS @imports from a string",
   "license": "MIT",
-  "repository": "kevva/get-import",
+  "repository": "kevva/get-imports",
   "author": {
     "name": "Kevin Mårtensson",
     "email": "kevinmartensson@gmail.com",
