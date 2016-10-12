@@ -1,16 +1,5 @@
 'use strict';
+const arrayUniq = require('array-uniq');
+const importRegex = require('import-regex');
 
-var arrayUniq = require('array-uniq');
-var importRegex = require('import-regex');
-
-module.exports = function (str) {
-	var imports = str.match(importRegex());
-
-	if (!imports) {
-		return [];
-	}
-
-	return arrayUniq(imports.map(function (el) {
-		return el.trim();
-	}));
-};
+module.exports = str => arrayUniq((str.match(importRegex()) || []).map(x => x.trim()));
